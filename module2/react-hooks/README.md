@@ -7,3 +7,7 @@ Hooks let you handle app state without writing classes.
 
 `useEffect` should be use sparingly since it runs on the first render to the DOM and anytime state is changed. Typically this is used to fetch data
 or talk with middleware like auth.
+
+## Props
+
+Props allows parent components to pass data down to child components of any type. props can be strings, objects, functions, etc all for use in another component 
